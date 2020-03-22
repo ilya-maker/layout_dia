@@ -918,6 +918,8 @@ html {
       .cards--human__photo::after {
         bottom: -33%;
         right: 7%; }
+  .cards--human__item:first-child {
+    margin-bottom: 50px; }
   .footer {
     padding: 100px 50px 50px; }
   .head__link {
@@ -944,13 +946,14 @@ html {
       overflow: initial; }
       .preview__img-photo {
         margin: 0 auto;
-        border-radius: 0 0 100px 100px; }
+        border-radius: 0 0 100px 100px;
+        max-height: 425px; }
       .preview__img:hover .preview__img-photo {
         -webkit-transform: scale(1);
                 transform: scale(1); }
   .about_1 .block {
     text-align: center;
-    margin: 30vw auto 50px; }
+    margin: 50vw auto 50px; }
   .expertise__title {
     padding: 0; }
   .item {
